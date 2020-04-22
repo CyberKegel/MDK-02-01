@@ -1,0 +1,8 @@
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\bin\Debug\Utils.dll
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\bin\Debug\Utils.pdb
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\bin\Debug\System_Windows_Forms_DataVisualization_Design (1).dll
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\obj\Debug\Utils.csproj.CopyComplete
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\obj\Debug\Utils.dll
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\obj\Debug\Utils.pdb
+C:\Users\Denis\Desktop\Техникум\РВиАПООН\МДК\Cafe_AfekWinForms\Utils\obj\Debug\Utils.csprojAssemblyReference.cache

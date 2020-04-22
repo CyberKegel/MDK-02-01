@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{419F49D2-C083-4007-BDF5-1E38ADED99CB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cafe_AfekWinForms</RootNamespace>
+    <AssemblyName>Cafe_AfekWinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClassLibrary1">
+      <HintPath>..\..\..\..\..\..\Downloads\ClassLibrary1.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\source\repos\TextReadactor\TextReadactor\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\source\repos\TextReadactor\TextReadactor\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.11\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System_Windows_Forms_DataVisualization_Design %281%29">
+      <HintPath>..\..\..\..\..\..\Downloads\System_Windows_Forms_DataVisualization_Design (1).dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Function_Class.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Формы\Authorization_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Authorization_Form.Designer.cs">
+      <DependentUpon>Authorization_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Work_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Work_Client.Designer.cs">
+      <DependentUpon>Work_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Purchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Purchase.Designer.cs">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Storage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Storage.Designer.cs">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\TypeProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\TypeProduct.Designer.cs">
+      <DependentUpon>TypeProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Employee_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Employee_Form.Designer.cs">
+      <DependentUpon>Employee_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Connection_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Connection_Form.Designer.cs">
+      <DependentUpon>Connection_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Navigation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Navigation.Designer.cs">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Position.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Position.Designer.cs">
+      <DependentUpon>Position.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Формы\Product.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Формы\Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Формы\Authorization_Form.resx">
+      <DependentUpon>Authorization_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Work_Client.resx">
+      <DependentUpon>Work_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Purchase.resx">
+      <DependentUpon>Purchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Storage.resx">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\TypeProduct.resx">
+      <DependentUpon>TypeProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Employee_Form.resx">
+      <DependentUpon>Employee_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Connection_Form.resx">
+      <DependentUpon>Connection_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Navigation.resx">
+      <DependentUpon>Navigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Position.resx">
+      <DependentUpon>Position.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Формы\Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{d58a0d1c-c614-472a-a319-5f4f390a1667}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
